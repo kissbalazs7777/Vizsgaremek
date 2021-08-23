@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Privacy policy tests"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6,480">
+  <properties />
+  
+  
+            <testcase name="validatePrivacyPolicyText" time="6,480" classname="testCases.PrivacyPolicyTests" />
+      
+</testsuite>
