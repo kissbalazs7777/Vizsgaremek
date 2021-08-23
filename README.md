@@ -1,6 +1,6 @@
 [Link to Extent Report](https://kissbalazs7777.github.io/Vizsgaremek)
 
-Feladat:
+Feladat:  
 -Regisztráció  
 -Bejelentkezés  
 -Adatkezelési nyilatkozat használata  
