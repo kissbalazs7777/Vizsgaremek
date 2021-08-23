@@ -13,7 +13,7 @@ Feladat:
 -Ismételt és sorozatos adatbevitel adatforrásból: blogbejegyzés sikeres/sikertelen (foglalt url/kötelező mező üresen hagyása) létrehozása  
 -Meglévő adat módosítása: blogbejegyzés sikeres/sikertelen (foglalt url/kötelező mező üresen hagyása) módosítása  
 -Adat vagy adatok törlése: blogbejegyzés törlése  
--Adatok lementése felületről: adatkezelési nyilatkozat szövegének lementése fájlba, majd az elvárt eredménnyel történő összehasonlítása 
+-Adatok lementése felületről: adatkezelési nyilatkozat szövegének lementése fájlba, majd az elvárt eredménnyel történő összehasonlítása  
 -Kijelentkezés: sikeres kijelentkezés  
 
 Valamennyi teszt adatot egy excel táblázatból (testdata.xlsx) olvasok be. A webelemek lokátorait Locators.properties fájlból olvasom be. A teszt környezetet pedig a Config.properties fájlból olvasom be.
