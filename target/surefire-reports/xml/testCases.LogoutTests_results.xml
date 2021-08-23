@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Logout tests"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.188">
+  <properties />
+  
+  
+            <testcase name="afterLogoutTryGoBackToPreviusPage" time="1.203" classname="testCases.LogoutTests" />
+                <testcase name="logOut" time="0.985" classname="testCases.LogoutTests" />
+      
+</testsuite>

@@ -1,21 +1,338 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-20T22:32:49 CEST" name="Functional tests" finished-at="2021-08-20T22:32:56 CEST" duration-ms="6741">
+  <suite name="Functional tests" duration-ms="75203" started-at="2021-08-23T08:15:00 UTC" finished-at="2021-08-23T08:16:16 UTC">
     <groups>
     </groups>
-    <test started-at="2021-08-20T22:32:49 CEST" name="Privacy policy tests" finished-at="2021-08-20T22:32:56 CEST" duration-ms="6741">
+    <test name="Login tests" duration-ms="4293" started-at="2021-08-23T08:15:00 UTC" finished-at="2021-08-23T08:15:05 UTC">
+      <class name="testCases.LoginTests">
+        <test-method status="PASS" signature="successfulLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTests@2f953efd]" name="successfulLogin" duration-ms="2069" started-at="2021-08-23T08:15:00 UTC" data-provider="dataProvider" finished-at="2021-08-23T08:15:03 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fradi1899]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method status="PASS" signature="successfulLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTests@2f953efd]" name="successfulLogin" duration-ms="885" started-at="2021-08-23T08:15:03 UTC" data-provider="dataProvider" finished-at="2021-08-23T08:15:04 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fradi1899]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method status="PASS" signature="unsuccessfulLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTests@2f953efd]" name="unsuccessfulLogin" duration-ms="378" started-at="2021-08-23T08:15:04 UTC" data-provider="dataProvider" finished-at="2021-08-23T08:15:04 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fradi1900]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsuccessfulLogin -->
+        <test-method status="PASS" signature="unsuccessfulLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTests@2f953efd]" name="unsuccessfulLogin" duration-ms="389" started-at="2021-08-23T08:15:04 UTC" data-provider="dataProvider" finished-at="2021-08-23T08:15:05 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[balazs@hotmail.hu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fradi1899]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsuccessfulLogin -->
+      </class> <!-- testCases.LoginTests -->
+    </test> <!-- Login tests -->
+    <test name="Create Blog tests" duration-ms="12037" started-at="2021-08-23T08:15:05 UTC" finished-at="2021-08-23T08:15:17 UTC">
+      <class name="testCases.CreateBlogTests">
+        <test-method status="PASS" signature="createBlogLeavingBlankField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.CreateBlogTests@311bf055]" name="createBlogLeavingBlankField" duration-ms="2936" started-at="2021-08-23T08:15:05 UTC" data-provider="dataProvider" finished-at="2021-08-23T08:15:08 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BlogTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[this-is-just-a-test-again]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[\src\test\resources\testfiles\halo360.jpg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[This is just a test with a little bit more text.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBlogLeavingBlankField -->
+        <test-method status="PASS" signature="createBlogSuccess(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.CreateBlogTests@311bf055]" name="createBlogSuccess" duration-ms="6999" started-at="2021-08-23T08:15:08 UTC" data-provider="dataProvider" finished-at="2021-08-23T08:15:15 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BlogTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This is just a test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[this-is-just-a-test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[\src\test\resources\testfiles\halo360.jpg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[This is just a test with a little bit more text.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBlogSuccess -->
+        <test-method status="PASS" signature="createBlogUrlAlreadyTaken(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.CreateBlogTests@311bf055]" name="createBlogUrlAlreadyTaken" duration-ms="1969" started-at="2021-08-23T08:15:15 UTC" data-provider="dataProvider" finished-at="2021-08-23T08:15:17 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BlogTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This is just a test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[lakasfelujitas-tippek]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[\src\test\resources\testfiles\halo360.jpg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[This is just a test with a little bit more text.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBlogUrlAlreadyTaken -->
+      </class> <!-- testCases.CreateBlogTests -->
+    </test> <!-- Create Blog tests -->
+    <test name="Edit Blog tests" duration-ms="22404" started-at="2021-08-23T08:15:17 UTC" finished-at="2021-08-23T08:15:39 UTC">
+      <class name="testCases.EditBlogTests">
+        <test-method status="PASS" signature="editBlogSuccess(java.lang.String)[pri:0, instance:testCases.EditBlogTests@448c8166]" name="editBlogSuccess" duration-ms="10443" started-at="2021-08-23T08:15:17 UTC" data-provider="dataProvider" finished-at="2021-08-23T08:15:27 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edited-url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editBlogSuccess -->
+        <test-method status="PASS" signature="editBlogUnSuccessBlankField()[pri:0, instance:testCases.EditBlogTests@448c8166]" name="editBlogUnSuccessBlankField" duration-ms="5903" started-at="2021-08-23T08:15:27 UTC" finished-at="2021-08-23T08:15:33 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editBlogUnSuccessBlankField -->
+        <test-method status="PASS" signature="editBlogUnSuccessTakenUrl(java.lang.String)[pri:0, instance:testCases.EditBlogTests@448c8166]" name="editBlogUnSuccessTakenUrl" duration-ms="5957" started-at="2021-08-23T08:15:33 UTC" data-provider="dataProvider" finished-at="2021-08-23T08:15:39 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakasfelujitas-tippek]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editBlogUnSuccessTakenUrl -->
+      </class> <!-- testCases.EditBlogTests -->
+    </test> <!-- Edit Blog tests -->
+    <test name="Delete Blog tests" duration-ms="21680" started-at="2021-08-23T08:15:39 UTC" finished-at="2021-08-23T08:16:01 UTC">
+      <class name="testCases.DeleteBlogTests">
+        <test-method status="PASS" signature="deleteBlog_CheckIfBlog_s_PageDeleted()[pri:0, instance:testCases.DeleteBlogTests@13526e59]" name="deleteBlog_CheckIfBlog_s_PageDeleted" duration-ms="6094" started-at="2021-08-23T08:15:39 UTC" finished-at="2021-08-23T08:15:45 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBlog_CheckIfBlog_s_PageDeleted -->
+        <test-method status="PASS" signature="deleteBlog_CheckIfVanishedFromAdminPage()[pri:0, instance:testCases.DeleteBlogTests@13526e59]" name="deleteBlog_CheckIfVanishedFromAdminPage" duration-ms="15501" started-at="2021-08-23T08:15:45 UTC" finished-at="2021-08-23T08:16:01 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBlog_CheckIfVanishedFromAdminPage -->
+      </class> <!-- testCases.DeleteBlogTests -->
+    </test> <!-- Delete Blog tests -->
+    <test name="Logout tests" duration-ms="2237" started-at="2021-08-23T08:16:01 UTC" finished-at="2021-08-23T08:16:03 UTC">
+      <class name="testCases.LogoutTests">
+        <test-method status="PASS" signature="afterLogoutTryGoBackToPreviusPage()[pri:0, instance:testCases.LogoutTests@36804139]" name="afterLogoutTryGoBackToPreviusPage" duration-ms="1203" started-at="2021-08-23T08:16:01 UTC" finished-at="2021-08-23T08:16:02 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLogoutTryGoBackToPreviusPage -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testCases.LogoutTests@36804139]" name="logOut" duration-ms="985" started-at="2021-08-23T08:16:02 UTC" finished-at="2021-08-23T08:16:03 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- testCases.LogoutTests -->
+    </test> <!-- Logout tests -->
+    <test name="Data listing tests" duration-ms="4029" started-at="2021-08-23T08:16:03 UTC" finished-at="2021-08-23T08:16:07 UTC">
+      <class name="testCases.ListRegisteredUsersTests">
+        <test-method status="PASS" signature="listUsers(java.util.List)[pri:0, instance:testCases.ListRegisteredUsersTests@5c86dbc5]" name="listUsers" duration-ms="1751" started-at="2021-08-23T08:16:03 UTC" data-provider="dataProviderList" finished-at="2021-08-23T08:16:05 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[admin, asd, qwer, qwert, qwerfgh, bala7777, adminImre, valaki, tesztuser, fradi1899]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listUsers -->
+        <test-method status="PASS" signature="traversingList(java.util.List)[pri:0, instance:testCases.ListRegisteredUsersTests@5c86dbc5]" name="traversingList" duration-ms="2189" started-at="2021-08-23T08:16:05 UTC" data-provider="dataProviderList" finished-at="2021-08-23T08:16:07 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[admin, asd, qwer, qwert, qwerfgh, bala7777, adminImre, valaki, tesztuser, fradi1899, valaki2, admin123, usertest, vizsgremekhez, codecool, selenium, dio, rainbow, lol, best345, lay23, theBest123, fm19, java16, more, moremore, bala, testtest, rob123, mike99, papa88, mama67, valamiuser]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- traversingList -->
+      </class> <!-- testCases.ListRegisteredUsersTests -->
+    </test> <!-- Data listing tests -->
+    <test name="Registration tests" duration-ms="6739" started-at="2021-08-23T08:16:07 UTC" finished-at="2021-08-23T08:16:14 UTC">
+      <class name="testCases.RegistrationTests">
+        <test-method status="PASS" signature="registerSuccess(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegistrationTests@60db1c0e]" name="registerSuccess" duration-ms="2467" started-at="2021-08-23T08:16:07 UTC" data-provider="dataProvider" finished-at="2021-08-23T08:16:10 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qwe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdfg12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerSuccess -->
+        <test-method status="PASS" signature="registerSuccess(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegistrationTests@60db1c0e]" name="registerSuccess" duration-ms="2561" started-at="2021-08-23T08:16:10 UTC" data-provider="dataProvider" finished-at="2021-08-23T08:16:12 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dfgh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfgh93728]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerSuccess -->
+        <test-method status="PASS" signature="registerUnsuccess(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegistrationTests@60db1c0e]" name="registerUnsuccess" duration-ms="1602" started-at="2021-08-23T08:16:12 UTC" data-provider="dataProvider" finished-at="2021-08-23T08:16:14 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gkjdfgkj1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUnsuccess -->
+      </class> <!-- testCases.RegistrationTests -->
+    </test> <!-- Registration tests -->
+    <test name="Privacy policy tests" duration-ms="1757" started-at="2021-08-23T08:16:14 UTC" finished-at="2021-08-23T08:16:16 UTC">
       <class name="testCases.PrivacyPolicyTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.PrivacyPolicyTests@2e554a3b]" started-at="2021-08-20T22:32:45 CEST" name="setUp" finished-at="2021-08-20T22:32:49 CEST" duration-ms="4648" status="PASS">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.PrivacyPolicyTests@2438dcd]" name="setUp" is-config="true" duration-ms="15997" started-at="2021-08-23T08:14:44 UTC" finished-at="2021-08-23T08:15:00 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validatePrivacyPolicyText()[pri:0, instance:testCases.PrivacyPolicyTests@2e554a3b]" started-at="2021-08-20T22:32:49 CEST" name="validatePrivacyPolicyText" finished-at="2021-08-20T22:32:56 CEST" duration-ms="6480" status="PASS">
+        <test-method status="PASS" signature="validatePrivacyPolicyText()[pri:0, instance:testCases.PrivacyPolicyTests@2438dcd]" name="validatePrivacyPolicyText" duration-ms="1731" started-at="2021-08-23T08:16:14 UTC" finished-at="2021-08-23T08:16:16 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePrivacyPolicyText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.PrivacyPolicyTests@2e554a3b]" started-at="2021-08-20T22:32:56 CEST" name="tearDown" finished-at="2021-08-20T22:32:56 CEST" duration-ms="232" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.PrivacyPolicyTests@2438dcd]" name="tearDown" is-config="true" duration-ms="622" started-at="2021-08-23T08:16:16 UTC" finished-at="2021-08-23T08:16:16 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

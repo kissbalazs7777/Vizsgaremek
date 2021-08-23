@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Create Blog tests"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11.904">
+  <properties />
+  
+  
+            <testcase name="createBlogSuccess" time="6.999" classname="testCases.CreateBlogTests" />
+                <testcase name="createBlogUrlAlreadyTaken" time="1.969" classname="testCases.CreateBlogTests" />
+                <testcase name="createBlogLeavingBlankField" time="2.936" classname="testCases.CreateBlogTests" />
+      
+</testsuite>

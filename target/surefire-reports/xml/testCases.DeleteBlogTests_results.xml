@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Delete Blog tests"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="21.595">
+  <properties />
+  
+  
+            <testcase name="deleteBlog_CheckIfBlog_s_PageDeleted" time="6.094" classname="testCases.DeleteBlogTests" />
+                <testcase name="deleteBlog_CheckIfVanishedFromAdminPage" time="15.501" classname="testCases.DeleteBlogTests" />
+      
+</testsuite>

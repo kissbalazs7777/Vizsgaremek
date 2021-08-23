@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="6,480">
+           time="1.731">
   <properties />
   
   
-            <testcase name="validatePrivacyPolicyText" time="6,480" classname="testCases.PrivacyPolicyTests" />
+            <testcase name="validatePrivacyPolicyText" time="1.731" classname="testCases.PrivacyPolicyTests" />
       
 </testsuite>
